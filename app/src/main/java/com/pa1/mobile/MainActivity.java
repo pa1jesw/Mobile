@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("kya apko sachi me jana h  ?? :-|");
+        builder.setMessage("kya apko sachi  jana h  ?? :-|");
         builder.setCancelable(false);
 
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
